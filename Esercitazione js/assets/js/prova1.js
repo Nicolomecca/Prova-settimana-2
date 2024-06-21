@@ -56,7 +56,7 @@ console.log(cars);
 /*
 ESERCIZIO 6
 Scrivi del codice per aggiungere un nuovo oggetto in ultima posizione nell'array "cars", rispettando la struttura degli altri elementi.
-Successivamente, rimuovi l'ultimo elemento della proprietà "trims" da ogni auto.
+Successivamente, rimuovi l'ultimo elemento della prietà "trims" da ogni auto.
 */
 
 cars.push('newModel');
