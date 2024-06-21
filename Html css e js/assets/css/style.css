@@ -30,7 +30,7 @@ nav{
 }
 
 nav ul li a:link,
-nav ul li a:visited { 
+nav ul li a:visited  { 
 	text-decoration: none;
 	color: antiquewhite;
 }
@@ -87,12 +87,7 @@ nav ul li:not(:last-child) {
     font-weight: 700;
     color:#333333;
 }
-.perfectGift p a :link,
-.perfectGift p a :visited{
-    text-decoration: none;
-	color: #41868D;
 
-}
 .playGame,
 .sound
 {
@@ -117,7 +112,7 @@ footer{
     height: 40px;
     background-color: #364759;
     text-align: center;
-
+    padding-top: 20px;
 }
 footer{
     width: 100%;
@@ -128,4 +123,16 @@ footer{
 }
 footer img{
     padding-top: 60px;
+
 }
+section p a:link,
+section p a:visited{
+    text-decoration: none;
+	color: #41868D;
+}
+.back a:link,
+.back a:visited{
+    color: white;
+}
+
+
