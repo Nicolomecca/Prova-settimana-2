@@ -75,17 +75,22 @@ nav ul li:not(:last-child) {
     padding-bottom: 20px;
     margin-bottom: 30px;
 }
+
+
 .img{
-    padding: 10px;
-    border-radius: 30px;
-    box-shadow: 5px 5px 10px 2px #333333;
-    
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px 2px #989696;
+    margin-right: 15px;
+    margin-left: 23px;
+   
 }
 .perfectGift p{
     margin-left: 30px;
     padding-top: 10px;
     font-weight: 700;
-    color:#333333;
+    color: #393939;
+    font-size: 1.3em;
+    
 }
 
 .playGame,
@@ -101,6 +106,8 @@ nav ul li:not(:last-child) {
 .sound p{
     text-align: center;
     font-weight: 600;
+    font-size: 1.5em;
+    margin-top: 0;
 }
 footer{
     width: 100%;
@@ -129,6 +136,9 @@ section p a:link,
 section p a:visited{
     text-decoration: none;
 	color: #41868D;
+    margin-left: 15px;
+    font-size: 1em;
+    
 }
 .back a:link,
 .back a:visited{
