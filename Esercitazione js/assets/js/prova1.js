@@ -59,11 +59,16 @@ Scrivi del codice per aggiungere un nuovo oggetto in ultima posizione nell'array
 Successivamente, rimuovi l'ultimo elemento della prietà "trims" da ogni auto.
 */
 
-cars.push('newModel');
+cars.push({brand:'Fiat', model:'fiat Punto',color :'Blue',trims :['Gt','st', 'active'],},)
+
 console.log(cars);
 
-for (let i = 0; i < cars.length; i++);
-    
+for (let i = 0; i < cars.length; i++) {
+    cars[i].trims.pop();
+
+}
+console.log(cars)
 
 
-   
+
+
