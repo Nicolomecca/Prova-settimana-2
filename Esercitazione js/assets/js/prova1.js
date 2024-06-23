@@ -8,19 +8,19 @@ for (let i = 0; i < pets.length; i++) {
 /* ESERCIZIO 2
     Scrivi del codice per ordinare alfabeticamente gli elementi dell'array "pets".
 */
-pets.sort();
-console.log(pets);
+const alfab = pets.sort();
+console.log(alfab);
 
 /* ESERCIZIO 3
     Scrivi del codice per stampare nuovamente in console gli elementi dell'array "pets", questa volta in ordine invertito.
 */
-pets.reverse();
-console.log(pets);
+const rev = pets.reverse();
+console.log(rev);
 
 /* ESERCIZIO 4
     Scrivi del codice per spostare il primo elemento dall'array "pets" in ultima posizione.
 */
-let firstPet = pets.shift();
+const firstPet = pets.shift();
 pets.push(firstPet);
 
 console.log(pets);
@@ -59,7 +59,7 @@ Scrivi del codice per aggiungere un nuovo oggetto in ultima posizione nell'array
 Successivamente, rimuovi l'ultimo elemento della prietà "trims" da ogni auto.
 */
 
-cars.push({brand:'Fiat', model:'fiat Punto',color :'blue',trims :['Gt','st', 'active'],},)
+cars.push({ brand: 'Fiat', model: 'fiat Punto', color: 'blue', trims: ['Gt', 'st', 'active'], },)
 
 console.log(cars);
 
@@ -72,9 +72,9 @@ console.log(cars);
 /* ESERCIZIO 7
     Scrivi del codice per salvare il primo elemento della proprietà "trims" di ogni auto nel nuovo array "justTrims", sotto definito.
 */
-const justTrims = [] ;
+const justTrims = [];
 
-for (let i = 0; i < cars.length; i++){
+for (let i = 0; i < cars.length; i++) {
     const newValue = cars[i].trims[0];
     justTrims.push(newValue);
 }
@@ -87,23 +87,21 @@ console.log(justTrims);
     "color" ha valore "b", mostra in console "Fizz". Altrimenti, mostra in console "Buzz".
 */
 
-for (let i = 0; i < cars.length; i++){
-    const firstCharacter = cars[i].color.substring(0,1);
-    if( firstCharacter === 'b'){
+for (let i = 0; i < cars.length; i++) {
+    const firstCharacter = cars[i].color.substring(0, 1);
+    if (firstCharacter === 'b') {
         console.log('Fizz');
     } else {
-        console.log('Buzz') ;
+        console.log('Buzz');
     }
 }
 /* ESERCIZIO 9
     Utilizza un ciclo while per stampare in console i valori del seguente array numerico fino al raggiungimento del numero 32.
 */
-const numericArray = [6, 90, 45, 75, 84, 98, 35, 74, 31, 2, 8, 23, 100, 32, 66, 313, 321, 105, ] ;
+const numericArray = [6, 90, 45, 75, 84, 98, 35, 74, 31, 2, 8, 23, 100, 32, 66, 313, 321, 105,];
 
-let i = 0; 
+let i = 0;
 while (numericArray[i] !== 32) {
     console.log(numericArray[i]);
     i++;
 }
-
-    
