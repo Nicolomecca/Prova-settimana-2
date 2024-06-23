@@ -59,7 +59,7 @@ Scrivi del codice per aggiungere un nuovo oggetto in ultima posizione nell'array
 Successivamente, rimuovi l'ultimo elemento della prietà "trims" da ogni auto.
 */
 
-cars.push({brand:'Fiat', model:'fiat Punto',color :'Blue',trims :['Gt','st', 'active'],},)
+cars.push({brand:'Fiat', model:'fiat Punto',color :'blue',trims :['Gt','st', 'active'],},)
 
 console.log(cars);
 
@@ -82,4 +82,17 @@ for (let i = 0; i < cars.length; i++){
 console.log(justTrims);
 
 
+/* ESERCIZIO 8
+    Cicla l'array "cars" e costruisci un if/else statament per mostrare due diversi messaggi in console. Se la prima lettera della proprietà
+    "color" ha valore "b", mostra in console "Fizz". Altrimenti, mostra in console "Buzz".
+*/
+
+for (let i = 0; i < cars.length; i++){
+    const firstCharacter = cars[i].color.substring(0,1);
+    if( firstCharacter === 'b'){
+        console.log('Fizz');
+    } else {
+        console.log('Buzz') ;
+    }
+}
 
